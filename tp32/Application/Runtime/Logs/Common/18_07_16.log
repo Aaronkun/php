@@ -1,0 +1,24 @@
+[ 2018-07-16T11:04:06+08:00 ] ::1 /tp32/home/test1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Tp32
+
+[ 2018-07-16T11:04:36+08:00 ] ::1 /tp32/s=home/test1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Tp32
+
+[ 2018-07-16T11:05:29+08:00 ] ::1 /tp32/home/test1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Tp32
+
+[ 2018-07-16T11:07:24+08:00 ] ::1 /tp32/s=home/test1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:S=home
+

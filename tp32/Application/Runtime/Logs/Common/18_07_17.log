@@ -1,0 +1,6 @@
+[ 2018-07-17T19:31:37+08:00 ] ::1 /tp32/test1/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038002s ]
+ERR: 无法加载模块:Test1
+
