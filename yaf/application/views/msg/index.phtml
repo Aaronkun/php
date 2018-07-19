@@ -7,13 +7,13 @@
 	<meta content="telephone=no, address=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
     <title>微留言演示案例</title>
-    <link rel="stylesheet" type="text/css" href="/public/message./msg.css" media="all" />	
+    <link rel="stylesheet" type="text/css" href="/yaf/public/message./msg.css" media="all" />	
 </head>
 <body id="message" onselectstart="return true;" ondragstart="return false;">
 	<div class="container">
 	  	<div class="qiandaobanner">
-		  	<a href="/public/message">
-		  		<img src="/public/message/wall.jpg" style="width:100%;" />
+		  	<a href="/yaf/public/message">
+		  		<img src="/yaf/public/message/wall.jpg" style="width:100%;" />
 		  	</a>
 	  	</div>
 		<div class="cardexplain">
@@ -33,7 +33,7 @@
 						<?php foreach($msgs as $msg):?>
 						<li class="green bounceInDown">
 							<h3>
-								<img src="/public/message/logo100x100.jpg"> 
+								<img src="/yaf/public/message/logo100x100.jpg"> 
 								<?=$msg['uname']?><span><?=date('Y-m-d H:i:s',$msg['created_at'])?></span>
 								<div class="clr"></div>
 							</h3>
@@ -64,7 +64,7 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="/public/message/jquery.js"></script>
+	<script type="text/javascript" src="/yaf/public/message/jquery.js"></script>
 	<script type="text/javascript"> 
 		$(function(){
 			//留言表单显示切换
